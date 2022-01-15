@@ -382,6 +382,12 @@ header{
 
  }
 
+
+  
+  	/*------------------ 
+	  Responsive css 
+	  ------------------*/
+
  @media (max-width :1100px) {
 	 
 	.container {
@@ -410,7 +416,7 @@ header{
 
 	}
 	.slider-section {
-		height: 75vh;
+		height: 485px;
 	}
 	
 	.slider-img img {
@@ -447,10 +453,7 @@ header{
 	}
 
  }
- @media (max-width :880px){
-	
 
- }
  @media (max-width :800px){
 	.menu-items ul li {
 		padding: 0 10px;
@@ -543,7 +546,7 @@ header{
 		margin-bottom: 22px;
 	}
 	.slider-section {
-		height: 92vh;
+		height: 493PX;
 	}
 	.slider-img img {
 		width: 348px;
@@ -558,6 +561,7 @@ header{
 	.contact {
 		width: 31%;
 		height: 148px;
+		border-radius: 35px 0;
 	}
 	.contact i {
 		font-size: 26px;
@@ -593,6 +597,10 @@ header{
 
 
 @media (max-width: 500px){
+	.container {
+		width: 100%;
+		max-width: 79%;
+	}
 	.menu-section {
 		height: 36px;
 
@@ -610,7 +618,7 @@ header{
 		max-width: 246px;
 	}
 	.slider-section {
-		height: 98vh;
+		height: 533px;
 	}
 	.logo-item img {
 		width: 36px;
@@ -659,6 +667,7 @@ header{
 	.contact {
 		width: 31%;
 		height: 107px;
+		border-radius: 22px 0;
 	}
 	.contact-form button {
 
@@ -691,7 +700,7 @@ header{
 	}
 	.contact {
 		width: 31%;
-		height: 115px;
+		height: 99px;
 	}
 	footer {
 		padding: 10px;
